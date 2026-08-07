@@ -7,7 +7,7 @@ To run the code:
 where:
   - name = {steady, Gauss, shock} are three different initial conditions:  
     * steady: Initial density given by analytic equilibrium solution  
-    * Gauss:  Initial angular velocity as Gauss function  
+    * Gauss:  Initial angular velocity as a Gauss function  
     * shock:  Initial radial velocity is discontinuous  
   - ngrid : Number of physical grids (ghost grid not included)  
   - CFL : The CFL number of simulation. Stable for ~0.5  
